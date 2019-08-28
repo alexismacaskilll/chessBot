@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="chessBots">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/testing.jar!/" />
+      <root url="jar://$PROJECT_DIR$/json-simple-1.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
