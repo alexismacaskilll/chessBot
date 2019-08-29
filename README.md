@@ -2,7 +2,7 @@
 
 In this project, I wrote several chess bots that competed against other chess bots in my class. I implemented several (graph/tree) algorithms,  Minimax, and Alpha-Beta Pruning, (both sequential and parallel).
 
-## Important Files to look at in the bots folder[bots folder](https://github.com/alexismacaskilll/chessBot/blob/master/src/chess/bots)
+## Important Files to look at in the [bots folder](https://github.com/alexismacaskilll/chessBot/blob/master/src/chess/bots)
 
 - [SimpleSearcher](https://github.com/alexismacaskilll/chessBot/blob/master/src/chess/bots/SimpleSearcher.java) implements the sequential Minimax algorithm. 
       -Minimax is a kind of backtracking algorithm that is used in decision making and game theory to find the optimal move for a player, assuming that your opponent also plays optimally. It is widely used in two player turn-based games. In Minimax the two players are called maximizer and minimizer. The maximizer tries to get the highest score possible while the minimizer tries to do the opposite and get the lowest score possible.
