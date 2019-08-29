@@ -4,7 +4,7 @@ In this project, I wrote several chess bots that competed against other chess bo
 
 ## Important Files to look at in the src->chess->bots folder.
 
-- [This is an absolute link to a nested file]https://github.com/alexismacaskilll/chessBot/blob/master/src/chess/bots/SimpleSearcher.java SimpleSearcher implements the sequential Minimax algorithm. 
+- [This is an absolute link to a nested file](https://github.com/alexismacaskilll/chessBot/blob/master/src/chess/bots/SimpleSearcher.java) SimpleSearcher implements the sequential Minimax algorithm. 
       -Minimax is a kind of backtracking algorithm that is used in decision making and game theory to find the optimal move for a player, assuming that your opponent also plays optimally. It is widely used in two player turn-based games. In Minimax the two players are called maximizer and minimizer. The maximizer tries to get the highest score possible while the minimizer tries to do the opposite and get the lowest score possible.
 - ParallelSearcher implements the parallel Minimax algorithm.
       -Minimax is a naturally parallelizable algorithm. Each “node” of the game tree can be run on independent threads. 
