@@ -10,13 +10,8 @@ import cse332.exceptions.NotYetImplementedException;
 
 public class AlphaBetaSearcher<M extends Move<M>, B extends Board<M, B>> extends AbstractSearcher<M, B> {
     public M getBestMove(B board, int myTime, int opTime) {
-    	//use evaluators infinity
     	 BestMove<M> best = alphaBeta(this.evaluator, board, ply, Integer.MIN_VALUE + 1, Integer.MAX_VALUE);
          return best.move;
-        
-        
-        // i think this is super similar to our simpleSearcher but we just need to be checking for 
-        // if alpha is >= beta then we break. 
     }
     
     static <M extends Move<M>, B extends Board<M, B>> BestMove<M> alphaBeta(Evaluator<B> evaluator, B board, int depth, int alpha, int beta) {
@@ -49,7 +44,6 @@ public class AlphaBetaSearcher<M extends Move<M>, B extends Board<M, B>> extends
 
     		 //If the value is bigger than beta, we won't actually be able to get this move
     		 if (alpha >= beta) {
-    			 //break; ???? 
     			 bestMove.value = alpha;
     			 return bestMove; 
     		 }
